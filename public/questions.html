@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quizzly</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #000000;
+            color: white;
+        }
+        .header {
+            background-color: #FF9933;
+            padding: 10px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .content {
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+        }
+        .logo {
+            width: 200px;
+            height: auto;
+            margin-bottom: 20px;
+            margin-left: 650px;
+        }
+        .question {
+            font-size: 24px;
+            margin-bottom: 20px;
+            margin-left: 680px;
+        }
+        .answer-input {
+            width: 40%;
+            padding: 10px;
+            font-size: 18px;
+            border: none;
+            border-radius: 20px;
+            background-color: #FF9933;
+            color: white;
+            margin-bottom: 20px;
+            margin-left: 450px;
+        }
+        .answer-input::placeholder {
+            color: rgba(255, 255, 255, 0.7);
+        }
+        .next-button {
+            background-color: #FF9933;
+            color: white;
+            border: none;
+            padding: 10px 40px;
+            border-radius: 20px;
+            font-size: 18px;
+            cursor: pointer;
+            align-self: flex-end;
+            margin-right: 680px;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div>STUDENT</div>
+        <div>VIRAY, PHILIP</div>
+    </div>
+    <br><br><br><br><br>
+    <div class="content">
+        <img src="logo.jpg" alt="Quizzly Logo" class="logo">
+        <div class="question">1. QUESTION</div>
+        <input type="text" class="answer-input" placeholder="WRITE YOUR ANSWER...">
+        <button class="next-button">NEXT</button>
+    </div>
+</body>
+</html>

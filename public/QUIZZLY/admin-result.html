@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quizzly </title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #000000;
+            color: white;
+        }
+        .header {
+            background-color: #FF9933;
+            padding: 10px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .content {
+            padding: 20px;
+        }
+        .logo {
+            width: 50px;
+            height: auto;
+            margin-right: 10px;
+        }
+        .search-bar {
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+        .search-input {
+            flex-grow: 1;
+            padding: 10px;
+            font-size: 16px;
+            border: none;
+            border-bottom: 2px solid white;
+            background: transparent;
+            color: white;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            padding: 10px;
+            text-align: left;
+            border-bottom: 1px solid #FF9933;
+        }
+        th {
+            background-color: #FF9933;
+        }
+        .icons {
+            display: flex;
+            justify-content: flex-end;
+        }
+        .icon {
+            margin-left: 10px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div>TEACHER</div>
+        <div>VIRAY, PHILIP</div>
+    </div>
+    <div class="content">
+        <div class="search-bar">
+            <img src="logo.jpg" alt="Quizzly Logo" class="logo">
+            <input type="text" class="search-input" placeholder="Search...">
+        </div>
+        <br><br>
+        <table>
+            <thead>
+                <tr>
+                    <th>STUDENT</th>
+                    <th>ID</th>
+                    <th>SCORE</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>PHILIP,VIRAY</td>
+                    <td>0000-0000-00000</td>
+                    <td>50/50</td>
+                </tr>
+                <tr>
+                    <td>SOLIS, HANNA</td>
+                    <td>0000-0000-00000</td>
+                    <td>69/50</td>
+                </tr>
+                <tr>
+                    <td>Biasora, Frinz Charles</td>
+                    <td>0000-0000-00000</td>
+                    <td>MISSING ata to</td>
+                </tr>
+            </tbody>
+        </table>
+        <div class="icons">
+            <span class="icon">✏️</span>
+            <span class="icon">🗑️</span>
+        </div>
+    </div>
+</body>
+</html>

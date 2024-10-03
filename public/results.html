@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quizzly </title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #000000;
+            color: white;
+        }
+        .header {
+            background-color: #FF9933;
+            padding: 10px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .content {
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .logo {
+            width: 150px;
+            height: auto;
+            margin-bottom: 20px;
+        }
+        .results-box {
+            background-color: #ffffff;
+            color: #000000;
+            padding: 20px;
+            border-radius: 10px;
+            width: 80%;
+            max-width: 400px;
+        }
+        .results-title {
+            text-align: center;
+            font-size: 24px;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+        .result-row {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 10px;
+        }
+        .back-button {
+            background-color: #FF9933;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 20px;
+            font-size: 18px;
+            cursor: pointer;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div>STUDENT</div>
+        <div>VIRAY, PHILIP</div>
+    </div>
+    <div class="content">
+        <br>
+        <br><br><br><br>
+        <img src="logo.jpg" alt="Quizzly Logo" class="logo">
+        <div class="results-box">
+            <div class="results-title">RESULTS</div>
+            <div class="result-row">
+                <span>CORRECT</span>
+                <span>21</span>
+            </div>
+            <div class="result-row">
+                <span>WRONG</span>
+                <span>4</span>
+            </div>
+            <div class="result-row">
+                <span>RANK</span>
+                <span>4TH</span>
+            </div>
+        </div>
+        <button class="back-button">BACK</button>
+    </div>
+</body>
+</html>
